@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 10px;
+    height: 750px;
+    background-image: url("../img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-all {
+    padding: 20px;
+    background-color: black;
+    overflow-y: hidden;
+    background: transparent;
+}
+
+.logo {
+    float: left;
+    margin-left: 250px;
+}
+
+.navbar {
+    float: right;
+    margin-right: 300px;
+    margin-top: 5px;
+}
+
+.logo a {
+    color: #fed136;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.navbar a {
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    margin-right: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.center i {
+    font-size: 2.25rem;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+.center h1 {
+    font-size: 4.5rem;
+    color: white;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 70px;
+}
+
+.center a {
+    background-color: #FFC800;
+    padding: 20px 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: .3s;
+}
+
+.center {
+    padding: 20px 20px;
+    text-align: center;
+    margin-top: 175px;
+}
+
+.center a:hover {
+    background-color: #d9aa00;
+    
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+.first-all  {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.first-all h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+}
+
+.first-all i {
+    font-weight: 40;
+    font-size: 18px;
+    color: #6C757D;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+}
+
+#portfolio {
+    width: 100%;
+    height: 900px;
+    
+}
+
+#portfolio #portfolio-img div {
+    width: 100%;
+    height: 500px;
+    background-color: #d9aa00;
+    
+}
+
+#portfolio .portfolio-img img {
+    width: 30%;
+    float: left;
+    padding: 30px;
+    margin-left: 45px;
+   
+}
+
+.amazing-team-all {
+    width: 100%;
+    height: 250px;
+}
+
+.amazing-team-all .designer {
+    width: 100%;
+}
+
+.amazing-team-all .designer img {
+    width: 12%;
+    float: left;
+    border: 8px solid #dfe0e1;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 300px;
+}
+
+#forth .all-designer .lead-designer {
+    width: 100%;
+    height: 100px;
+    margin-top: 0px;
+    padding: 20px;
+    
+}
+
+
+#forth .all-designer {
+    display: flex;
+    margin-left: 280px;
+
+}
+
+#forth .lead-designer h4 p {
+    
+    display: flex;
+}
+
+#forth .all-designer .lead-designer h4 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#forth .all-designer .lead-designer p {
+    font-size: 17px;
+    font-style:initial;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #6C757D;
+}
+.bottom {
+    width: 100%;
+    height: 150px;
+    
+}
+
+.bottom p {
+    margin-top: 50px;
+    color: #6c757d;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 75px ;
+}
+
+#photo .photo-img {
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+    
+    
+    
+}
+
+#photo .photo-img .photos-site {
+    width: 100%;
+    margin-left: 200px;
+    
+    
+}
+
+#photo .photo-img .photos-site img {
+    width: 200px;
+    float: left;
+    margin-left: 170px;
+    overflow-y:  hidden;
+    
+}
+
+#photo .photo-img .Google img {
+    width: 150px;
+}
+
+#photo .photo-img .ibm img {
+    width: 120px;
+}
+
+
+
